@@ -114,7 +114,6 @@ public class  MyHashMap<K,V> {
                     Node<K, V> next = current.next;
                     current.next = null;
                     current = next;
-                    ;
                 } else {
                     Node<K, V> next = current.next;
                     current.next = newTable[newIndex];
